@@ -3,8 +3,8 @@ package entities;
 import java.util.List;
 
 public class Idol {
-    private String name;
     private int id;
+    private String name;
     private String email;
     private List<Follower> followers;
     private String group;
